@@ -6,6 +6,10 @@ langchain-openai>=0.1.0
 langchain-google-genai>=2.0.0
 langchain-groq>=0.1.0
 
+# Backend API
+fastapi>=0.110.0
+uvicorn>=0.28.0
+
 # OpenAI
 openai>=1.30.0
 
@@ -38,7 +42,7 @@ tenacity>=8.2.0
 # JSON handling improvements
 orjson>=3.9.0
 
-# Typing support (helps in bigger projects)
+# Typing support
 pydantic>=2.5.0
 
 # Optional (for advanced parsing / HTML cleanup)
