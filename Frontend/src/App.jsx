@@ -35,7 +35,7 @@ export default function App() {
     }, 4500);
 
     try {
-      const response = await fetch('https://research-mind-7cj4.onrender.com/', {
+      const response = await fetch('https://research-mind-7cj4.onrender.com/api/research', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
